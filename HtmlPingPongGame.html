@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		@import url("PingPongGameStyle.css");
+	</style>
+</head>
+
+
+
+<body>
+
+	<basefont face="helvetica, sans-serif">
+	<div style="position:fixed;left:500px;top:250px">
+
+		<p1 style="font-size:x-large;" align="left" id="text1">Please Select Difficulty</p1>
+		<br>
+		<button class="button1" onclick="easy()" id="but1">EASY</button>
+		<button class="button2" onclick="medium()" id="but2">MEDIUM</button>
+		<button class="button3" onclick="hard()" id="but3">HARD</button>
+
+		<p3 style="font-size:x-large;position:relative;left:260px;top:0px" align="left" id="text4" hidden>Click here to Try Again</p3>
+		<br>
+		<button class="button4" style="position:relative;left:310px;top:0px" onclick="tryAgaindef()" id="but8" hidden>TRY AGAIN</button>
+
+		<p2 style="font-size:x-large;" align="left" id="text2" hidden>Please Select the Screen Size</p2>
+		<br>
+		<button class="button1" onclick="small()" id="but4" hidden>SMALL</button>
+		<button class="button2" onclick="middle()" id="but5" hidden>MEDIUM</button>
+		<button class="button3" onclick="big()" id="but6" hidden>BIG</button>
+
+		<p3 style="font-size:x-large;" id="text3" hidden>Click here to Start</p3>
+		<br>
+		<button class="button4" style="position:relative;left:40px" onclick="startGame()" id="but7" hidden>START</button>
+		<p3 style="font-size:large;position:relative;left:210px" id="text5" hidden>Click here to go back to the options menu</p3>
+		<br>
+		<button class="button1" style="position:relative;left:310px; top:10px" onClick="window.location.href=window.location.href" id="but9" hidden>MAIN MENU</button>
+	</div>
+	<script src="PingPongJS.js">
+	</script>
+
+
+
+</body>
+
+</html>
